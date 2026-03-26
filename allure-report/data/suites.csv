@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11141","Verify sidebar menu names","chromium","2026-03-19","passed","2026-03-19","Home page tests","home.spec.ts","",""
+"","9457","Login with username=Admin => failed","chromium","2026-03-19","passed","2026-03-19","Login test with data provider","login.spec.ts","",""
+"","7056","Login with username=Admin => success","chromium","2026-03-19","passed","2026-03-19","Login test with data provider","login.spec.ts","",""
+"","9230","Login with username=Admin1 => failed","chromium","2026-03-19","passed","2026-03-19","Login test with data provider","login.spec.ts","",""

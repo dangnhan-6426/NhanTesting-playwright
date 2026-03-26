@@ -1,0 +1,626 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "PIM" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: VIJAY J BABU
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+  - generic [ref=e135]:
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - heading "VIJAY J BABU" [level=6] [ref=e143]
+          - img "profile picture" [ref=e146] [cursor=pointer]
+        - tablist [ref=e147]:
+          - tab "Personal Details" [ref=e148]:
+            - link "Personal Details" [ref=e149] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewPersonalDetails/empNumber/7
+          - tab "Contact Details" [ref=e150]:
+            - link "Contact Details" [ref=e151] [cursor=pointer]:
+              - /url: /web/index.php/pim/contactDetails/empNumber/7
+          - tab "Emergency Contacts" [ref=e152]:
+            - link "Emergency Contacts" [ref=e153] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewEmergencyContacts/empNumber/7
+          - tab "Dependents" [ref=e154]:
+            - link "Dependents" [ref=e155] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewDependents/empNumber/7
+          - tab "Immigration" [ref=e156]:
+            - link "Immigration" [ref=e157] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewImmigration/empNumber/7
+          - tab "Job" [ref=e158]:
+            - link "Job" [ref=e159] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewJobDetails/empNumber/7
+          - tab "Salary" [ref=e160]:
+            - link "Salary" [ref=e161] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewSalaryList/empNumber/7
+          - tab "Report-to" [ref=e162]:
+            - link "Report-to" [ref=e163] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewReportToDetails/empNumber/7
+          - tab "Qualifications" [ref=e164]:
+            - link "Qualifications" [ref=e165] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewQualifications/empNumber/7
+          - tab "Memberships" [ref=e166]:
+            - link "Memberships" [ref=e167] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewMemberships/empNumber/7
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - heading "Personal Details" [level=6] [ref=e170]
+          - separator [ref=e171]
+          - generic [ref=e172]:
+            - generic [ref=e176]:
+              - generic [ref=e178]: Employee Full Name*
+              - generic [ref=e179]:
+                - textbox "First Name" [ref=e182]: VIJAY J
+                - textbox "Middle Name" [ref=e185]: GANESH
+                - textbox "Last Name" [ref=e188]: BABU
+            - separator [ref=e189]
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - generic [ref=e193]:
+                  - generic [ref=e195]: Employee Id
+                  - textbox [ref=e197]: ramesh
+                - generic [ref=e199]:
+                  - generic [ref=e201]: Other Id
+                  - textbox [ref=e203]: "4957589"
+              - generic [ref=e204]:
+                - generic [ref=e206]:
+                  - generic [ref=e208]: Driver's License Number
+                  - textbox [ref=e210]: "56788"
+                - generic [ref=e212]:
+                  - generic [ref=e214]: License Expiry Date
+                  - generic [ref=e217]:
+                    - textbox "yyyy-dd-mm" [ref=e218]: 2025-05-10
+                    - generic [ref=e219] [cursor=pointer]: 
+            - separator [ref=e220]
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e224]:
+                  - generic [ref=e226]: Nationality
+                  - generic [ref=e228]:
+                    - generic [ref=e229] [cursor=pointer]:
+                      - generic [active] [ref=e230]: Albanian
+                      - generic [ref=e232]: 
+                    - listbox [ref=e233]:
+                      - option "-- Select --" [ref=e234] [cursor=pointer]
+                      - option "Afghan" [ref=e235] [cursor=pointer]:
+                        - generic [ref=e236]: Afghan
+                      - option "Albanian" [ref=e237]:
+                        - generic [ref=e238]: Albanian
+                      - option "Algerian" [ref=e239] [cursor=pointer]:
+                        - generic [ref=e240]: Algerian
+                      - option "American" [ref=e241] [cursor=pointer]:
+                        - generic [ref=e242]: American
+                      - option "Andorran" [ref=e243] [cursor=pointer]:
+                        - generic [ref=e244]: Andorran
+                      - option "Angolan" [ref=e245] [cursor=pointer]:
+                        - generic [ref=e246]: Angolan
+                      - option "Antiguans" [ref=e247] [cursor=pointer]:
+                        - generic [ref=e248]: Antiguans
+                      - option "Argentinean" [ref=e249] [cursor=pointer]:
+                        - generic [ref=e250]: Argentinean
+                      - option "Armenian" [ref=e251] [cursor=pointer]:
+                        - generic [ref=e252]: Armenian
+                      - option "Australian" [ref=e253] [cursor=pointer]:
+                        - generic [ref=e254]: Australian
+                      - option "Austrian" [ref=e255] [cursor=pointer]:
+                        - generic [ref=e256]: Austrian
+                      - option "Azerbaijani" [ref=e257] [cursor=pointer]:
+                        - generic [ref=e258]: Azerbaijani
+                      - option "Bahamian" [ref=e259] [cursor=pointer]:
+                        - generic [ref=e260]: Bahamian
+                      - option "Bahraini" [ref=e261] [cursor=pointer]:
+                        - generic [ref=e262]: Bahraini
+                      - option "Bangladeshi" [ref=e263] [cursor=pointer]:
+                        - generic [ref=e264]: Bangladeshi
+                      - option "Barbadian" [ref=e265] [cursor=pointer]:
+                        - generic [ref=e266]: Barbadian
+                      - option "Barbudans" [ref=e267] [cursor=pointer]:
+                        - generic [ref=e268]: Barbudans
+                      - option "Batswana" [ref=e269] [cursor=pointer]:
+                        - generic [ref=e270]: Batswana
+                      - option "Belarusian" [ref=e271] [cursor=pointer]:
+                        - generic [ref=e272]: Belarusian
+                      - option "Belgian" [ref=e273] [cursor=pointer]:
+                        - generic [ref=e274]: Belgian
+                      - option "Belizean" [ref=e275] [cursor=pointer]:
+                        - generic [ref=e276]: Belizean
+                      - option "Beninese" [ref=e277] [cursor=pointer]:
+                        - generic [ref=e278]: Beninese
+                      - option "Bhutanese" [ref=e279] [cursor=pointer]:
+                        - generic [ref=e280]: Bhutanese
+                      - option "Bolivian" [ref=e281] [cursor=pointer]:
+                        - generic [ref=e282]: Bolivian
+                      - option "Bosnian" [ref=e283] [cursor=pointer]:
+                        - generic [ref=e284]: Bosnian
+                      - option "Brazilian" [ref=e285] [cursor=pointer]:
+                        - generic [ref=e286]: Brazilian
+                      - option "British" [ref=e287] [cursor=pointer]:
+                        - generic [ref=e288]: British
+                      - option "Bruneian" [ref=e289] [cursor=pointer]:
+                        - generic [ref=e290]: Bruneian
+                      - option "Bulgarian" [ref=e291] [cursor=pointer]:
+                        - generic [ref=e292]: Bulgarian
+                      - option "Burkinabe" [ref=e293] [cursor=pointer]:
+                        - generic [ref=e294]: Burkinabe
+                      - option "Burmese" [ref=e295] [cursor=pointer]:
+                        - generic [ref=e296]: Burmese
+                      - option "Burundian" [ref=e297] [cursor=pointer]:
+                        - generic [ref=e298]: Burundian
+                      - option "Cambodian" [ref=e299] [cursor=pointer]:
+                        - generic [ref=e300]: Cambodian
+                      - option "Cameroonian" [ref=e301] [cursor=pointer]:
+                        - generic [ref=e302]: Cameroonian
+                      - option "Canadian" [ref=e303] [cursor=pointer]:
+                        - generic [ref=e304]: Canadian
+                      - option "Cape Verdean" [ref=e305] [cursor=pointer]:
+                        - generic [ref=e306]: Cape Verdean
+                      - option "Central African" [ref=e307] [cursor=pointer]:
+                        - generic [ref=e308]: Central African
+                      - option "Chadian" [ref=e309] [cursor=pointer]:
+                        - generic [ref=e310]: Chadian
+                      - option "Chilean" [ref=e311] [cursor=pointer]:
+                        - generic [ref=e312]: Chilean
+                      - option "Chinese" [ref=e313] [cursor=pointer]:
+                        - generic [ref=e314]: Chinese
+                      - option "Colombian" [ref=e315] [cursor=pointer]:
+                        - generic [ref=e316]: Colombian
+                      - option "Comoran" [ref=e317] [cursor=pointer]:
+                        - generic [ref=e318]: Comoran
+                      - option "Congolese" [ref=e319] [cursor=pointer]:
+                        - generic [ref=e320]: Congolese
+                      - option "Costa Rican" [ref=e321] [cursor=pointer]:
+                        - generic [ref=e322]: Costa Rican
+                      - option "Croatian" [ref=e323] [cursor=pointer]:
+                        - generic [ref=e324]: Croatian
+                      - option "Cuban" [ref=e325] [cursor=pointer]:
+                        - generic [ref=e326]: Cuban
+                      - option "Cypriot" [ref=e327] [cursor=pointer]:
+                        - generic [ref=e328]: Cypriot
+                      - option "Czech" [ref=e329] [cursor=pointer]:
+                        - generic [ref=e330]: Czech
+                      - option "Danish" [ref=e331] [cursor=pointer]:
+                        - generic [ref=e332]: Danish
+                      - option "Djibouti" [ref=e333] [cursor=pointer]:
+                        - generic [ref=e334]: Djibouti
+                      - option "Dominican" [ref=e335] [cursor=pointer]:
+                        - generic [ref=e336]: Dominican
+                      - option "Dutch" [ref=e337] [cursor=pointer]:
+                        - generic [ref=e338]: Dutch
+                      - option "East Timorese" [ref=e339] [cursor=pointer]:
+                        - generic [ref=e340]: East Timorese
+                      - option "Ecuadorean" [ref=e341] [cursor=pointer]:
+                        - generic [ref=e342]: Ecuadorean
+                      - option "Egyptian" [ref=e343] [cursor=pointer]:
+                        - generic [ref=e344]: Egyptian
+                      - option "Emirian" [ref=e345] [cursor=pointer]:
+                        - generic [ref=e346]: Emirian
+                      - option "Equatorial Guinean" [ref=e347] [cursor=pointer]:
+                        - generic [ref=e348]: Equatorial Guinean
+                      - option "Eritrean" [ref=e349] [cursor=pointer]:
+                        - generic [ref=e350]: Eritrean
+                      - option "Estonian" [ref=e351] [cursor=pointer]:
+                        - generic [ref=e352]: Estonian
+                      - option "Ethiopian" [ref=e353] [cursor=pointer]:
+                        - generic [ref=e354]: Ethiopian
+                      - option "Fijian" [ref=e355] [cursor=pointer]:
+                        - generic [ref=e356]: Fijian
+                      - option "Filipino" [ref=e357] [cursor=pointer]:
+                        - generic [ref=e358]: Filipino
+                      - option "Finnish" [ref=e359] [cursor=pointer]:
+                        - generic [ref=e360]: Finnish
+                      - option "French" [ref=e361] [cursor=pointer]:
+                        - generic [ref=e362]: French
+                      - option "Gabonese" [ref=e363] [cursor=pointer]:
+                        - generic [ref=e364]: Gabonese
+                      - option "Gambian" [ref=e365] [cursor=pointer]:
+                        - generic [ref=e366]: Gambian
+                      - option "Georgian" [ref=e367] [cursor=pointer]:
+                        - generic [ref=e368]: Georgian
+                      - option "German" [ref=e369] [cursor=pointer]:
+                        - generic [ref=e370]: German
+                      - option "Ghanaian" [ref=e371] [cursor=pointer]:
+                        - generic [ref=e372]: Ghanaian
+                      - option "Greek" [ref=e373] [cursor=pointer]:
+                        - generic [ref=e374]: Greek
+                      - option "Grenadian" [ref=e375] [cursor=pointer]:
+                        - generic [ref=e376]: Grenadian
+                      - option "Guatemalan" [ref=e377] [cursor=pointer]:
+                        - generic [ref=e378]: Guatemalan
+                      - option "Guinea-Bissauan" [ref=e379] [cursor=pointer]:
+                        - generic [ref=e380]: Guinea-Bissauan
+                      - option "Guinean" [ref=e381] [cursor=pointer]:
+                        - generic [ref=e382]: Guinean
+                      - option "Guyanese" [ref=e383] [cursor=pointer]:
+                        - generic [ref=e384]: Guyanese
+                      - option "Haitian" [ref=e385] [cursor=pointer]:
+                        - generic [ref=e386]: Haitian
+                      - option "Herzegovinian" [ref=e387] [cursor=pointer]:
+                        - generic [ref=e388]: Herzegovinian
+                      - option "Honduran" [ref=e389] [cursor=pointer]:
+                        - generic [ref=e390]: Honduran
+                      - option "Hungarian" [ref=e391] [cursor=pointer]:
+                        - generic [ref=e392]: Hungarian
+                      - option "I-Kiribati" [ref=e393] [cursor=pointer]:
+                        - generic [ref=e394]: I-Kiribati
+                      - option "Icelander" [ref=e395] [cursor=pointer]:
+                        - generic [ref=e396]: Icelander
+                      - option "India" [ref=e397] [cursor=pointer]:
+                        - generic [ref=e398]: India
+                      - option "Indian" [ref=e399] [cursor=pointer]:
+                        - generic [ref=e400]: Indian
+                      - option "Indonesian" [ref=e401] [cursor=pointer]:
+                        - generic [ref=e402]: Indonesian
+                      - option "Iranian" [ref=e403] [cursor=pointer]:
+                        - generic [ref=e404]: Iranian
+                      - option "Iraqi" [ref=e405] [cursor=pointer]:
+                        - generic [ref=e406]: Iraqi
+                      - option "Irish" [ref=e407] [cursor=pointer]:
+                        - generic [ref=e408]: Irish
+                      - option "Israeli" [ref=e409] [cursor=pointer]:
+                        - generic [ref=e410]: Israeli
+                      - option "Italian" [ref=e411] [cursor=pointer]:
+                        - generic [ref=e412]: Italian
+                      - option "Ivorian" [ref=e413] [cursor=pointer]:
+                        - generic [ref=e414]: Ivorian
+                      - option "Jamaican" [ref=e415] [cursor=pointer]:
+                        - generic [ref=e416]: Jamaican
+                      - option "Japanese" [ref=e417] [cursor=pointer]:
+                        - generic [ref=e418]: Japanese
+                      - option "Jordanian" [ref=e419] [cursor=pointer]:
+                        - generic [ref=e420]: Jordanian
+                      - option "Kazakhstani" [ref=e421] [cursor=pointer]:
+                        - generic [ref=e422]: Kazakhstani
+                      - option "Kenyan" [ref=e423] [cursor=pointer]:
+                        - generic [ref=e424]: Kenyan
+                      - option "Kittian and Nevisian" [ref=e425] [cursor=pointer]:
+                        - generic [ref=e426]: Kittian and Nevisian
+                      - option "Kuwaiti" [ref=e427] [cursor=pointer]:
+                        - generic [ref=e428]: Kuwaiti
+                      - option "Kyrgyz" [ref=e429] [cursor=pointer]:
+                        - generic [ref=e430]: Kyrgyz
+                      - option "Laotian" [ref=e431] [cursor=pointer]:
+                        - generic [ref=e432]: Laotian
+                      - option "Latvian" [ref=e433] [cursor=pointer]:
+                        - generic [ref=e434]: Latvian
+                      - option "Lebanese" [ref=e435] [cursor=pointer]:
+                        - generic [ref=e436]: Lebanese
+                      - option "Liberian" [ref=e437] [cursor=pointer]:
+                        - generic [ref=e438]: Liberian
+                      - option "Libyan" [ref=e439] [cursor=pointer]:
+                        - generic [ref=e440]: Libyan
+                      - option "Liechtensteiner" [ref=e441] [cursor=pointer]:
+                        - generic [ref=e442]: Liechtensteiner
+                      - option "Lithuanian" [ref=e443] [cursor=pointer]:
+                        - generic [ref=e444]: Lithuanian
+                      - option "Luxembourger" [ref=e445] [cursor=pointer]:
+                        - generic [ref=e446]: Luxembourger
+                      - option "Macedonian" [ref=e447] [cursor=pointer]:
+                        - generic [ref=e448]: Macedonian
+                      - option "Malagasy" [ref=e449] [cursor=pointer]:
+                        - generic [ref=e450]: Malagasy
+                      - option "Malawian" [ref=e451] [cursor=pointer]:
+                        - generic [ref=e452]: Malawian
+                      - option "Malaysian" [ref=e453] [cursor=pointer]:
+                        - generic [ref=e454]: Malaysian
+                      - option "Maldivan" [ref=e455] [cursor=pointer]:
+                        - generic [ref=e456]: Maldivan
+                      - option "Malian" [ref=e457] [cursor=pointer]:
+                        - generic [ref=e458]: Malian
+                      - option "Maltese" [ref=e459] [cursor=pointer]:
+                        - generic [ref=e460]: Maltese
+                      - option "Marshallese" [ref=e461] [cursor=pointer]:
+                        - generic [ref=e462]: Marshallese
+                      - option "Mauritanian" [ref=e463] [cursor=pointer]:
+                        - generic [ref=e464]: Mauritanian
+                      - option "Mauritian" [ref=e465] [cursor=pointer]:
+                        - generic [ref=e466]: Mauritian
+                      - option "Mexican" [ref=e467] [cursor=pointer]:
+                        - generic [ref=e468]: Mexican
+                      - option "Micronesian" [ref=e469] [cursor=pointer]:
+                        - generic [ref=e470]: Micronesian
+                      - option "Moldovan" [ref=e471] [cursor=pointer]:
+                        - generic [ref=e472]: Moldovan
+                      - option "Monacan" [ref=e473] [cursor=pointer]:
+                        - generic [ref=e474]: Monacan
+                      - option "Mongolian" [ref=e475] [cursor=pointer]:
+                        - generic [ref=e476]: Mongolian
+                      - option "Moroccan" [ref=e477] [cursor=pointer]:
+                        - generic [ref=e478]: Moroccan
+                      - option "Mosotho" [ref=e479] [cursor=pointer]:
+                        - generic [ref=e480]: Mosotho
+                      - option "Motswana" [ref=e481] [cursor=pointer]:
+                        - generic [ref=e482]: Motswana
+                      - option "Mozambican" [ref=e483] [cursor=pointer]:
+                        - generic [ref=e484]: Mozambican
+                      - option "Namibian" [ref=e485] [cursor=pointer]:
+                        - generic [ref=e486]: Namibian
+                      - option "Nauruan" [ref=e487] [cursor=pointer]:
+                        - generic [ref=e488]: Nauruan
+                      - option "Nepalese" [ref=e489] [cursor=pointer]:
+                        - generic [ref=e490]: Nepalese
+                      - option "New Zealander" [ref=e491] [cursor=pointer]:
+                        - generic [ref=e492]: New Zealander
+                      - option "Nicaraguan" [ref=e493] [cursor=pointer]:
+                        - generic [ref=e494]: Nicaraguan
+                      - option "Nigerian" [ref=e495] [cursor=pointer]:
+                        - generic [ref=e496]: Nigerian
+                      - option "Nigerien" [ref=e497] [cursor=pointer]:
+                        - generic [ref=e498]: Nigerien
+                      - option "North Korean" [ref=e499] [cursor=pointer]:
+                        - generic [ref=e500]: North Korean
+                      - option "Northern Irish" [ref=e501] [cursor=pointer]:
+                        - generic [ref=e502]: Northern Irish
+                      - option "Norwegian" [ref=e503] [cursor=pointer]:
+                        - generic [ref=e504]: Norwegian
+                      - option "Omani" [ref=e505] [cursor=pointer]:
+                        - generic [ref=e506]: Omani
+                      - option "Pakistani" [ref=e507] [cursor=pointer]:
+                        - generic [ref=e508]: Pakistani
+                      - option "Palauan" [ref=e509] [cursor=pointer]:
+                        - generic [ref=e510]: Palauan
+                      - option "Panamanian" [ref=e511] [cursor=pointer]:
+                        - generic [ref=e512]: Panamanian
+                      - option "Papua New Guinean" [ref=e513] [cursor=pointer]:
+                        - generic [ref=e514]: Papua New Guinean
+                      - option "Paraguayan" [ref=e515] [cursor=pointer]:
+                        - generic [ref=e516]: Paraguayan
+                      - option "Peruvian" [ref=e517] [cursor=pointer]:
+                        - generic [ref=e518]: Peruvian
+                      - option "Polish" [ref=e519] [cursor=pointer]:
+                        - generic [ref=e520]: Polish
+                      - option "Portuguese" [ref=e521] [cursor=pointer]:
+                        - generic [ref=e522]: Portuguese
+                      - option "Qatari" [ref=e523] [cursor=pointer]:
+                        - generic [ref=e524]: Qatari
+                      - option "Romanian" [ref=e525] [cursor=pointer]:
+                        - generic [ref=e526]: Romanian
+                      - option "Russian" [ref=e527] [cursor=pointer]:
+                        - generic [ref=e528]: Russian
+                      - option "Rwandan" [ref=e529] [cursor=pointer]:
+                        - generic [ref=e530]: Rwandan
+                      - option "Saint Lucian" [ref=e531] [cursor=pointer]:
+                        - generic [ref=e532]: Saint Lucian
+                      - option "Salvadoran" [ref=e533] [cursor=pointer]:
+                        - generic [ref=e534]: Salvadoran
+                      - option "Samoan" [ref=e535] [cursor=pointer]:
+                        - generic [ref=e536]: Samoan
+                      - option "San Marinese" [ref=e537] [cursor=pointer]:
+                        - generic [ref=e538]: San Marinese
+                      - option "Sao Tomean" [ref=e539] [cursor=pointer]:
+                        - generic [ref=e540]: Sao Tomean
+                      - option "Saudi" [ref=e541] [cursor=pointer]:
+                        - generic [ref=e542]: Saudi
+                      - option "Scottish" [ref=e543] [cursor=pointer]:
+                        - generic [ref=e544]: Scottish
+                      - option "Senegalese" [ref=e545] [cursor=pointer]:
+                        - generic [ref=e546]: Senegalese
+                      - option "Serbian" [ref=e547] [cursor=pointer]:
+                        - generic [ref=e548]: Serbian
+                      - option "Seychellois" [ref=e549] [cursor=pointer]:
+                        - generic [ref=e550]: Seychellois
+                      - option "Sierra Leonean" [ref=e551] [cursor=pointer]:
+                        - generic [ref=e552]: Sierra Leonean
+                      - option "Singaporean" [ref=e553] [cursor=pointer]:
+                        - generic [ref=e554]: Singaporean
+                      - option "Slovakian" [ref=e555] [cursor=pointer]:
+                        - generic [ref=e556]: Slovakian
+                      - option "Slovenian" [ref=e557] [cursor=pointer]:
+                        - generic [ref=e558]: Slovenian
+                      - option "Solomon Islander" [ref=e559] [cursor=pointer]:
+                        - generic [ref=e560]: Solomon Islander
+                      - option "Somali" [ref=e561] [cursor=pointer]:
+                        - generic [ref=e562]: Somali
+                      - option "South African" [ref=e563] [cursor=pointer]:
+                        - generic [ref=e564]: South African
+                      - option "South Korean" [ref=e565] [cursor=pointer]:
+                        - generic [ref=e566]: South Korean
+                      - option "Spanish" [ref=e567] [cursor=pointer]:
+                        - generic [ref=e568]: Spanish
+                      - option "Sri Lankan" [ref=e569] [cursor=pointer]:
+                        - generic [ref=e570]: Sri Lankan
+                      - option "Sudanese" [ref=e571] [cursor=pointer]:
+                        - generic [ref=e572]: Sudanese
+                      - option "Surinamer" [ref=e573] [cursor=pointer]:
+                        - generic [ref=e574]: Surinamer
+                      - option "Swazi" [ref=e575] [cursor=pointer]:
+                        - generic [ref=e576]: Swazi
+                      - option "Swedish" [ref=e577] [cursor=pointer]:
+                        - generic [ref=e578]: Swedish
+                      - option "Swiss" [ref=e579] [cursor=pointer]:
+                        - generic [ref=e580]: Swiss
+                      - option "Syrian" [ref=e581] [cursor=pointer]:
+                        - generic [ref=e582]: Syrian
+                      - option "Taiwanese" [ref=e583] [cursor=pointer]:
+                        - generic [ref=e584]: Taiwanese
+                      - option "Tajik" [ref=e585] [cursor=pointer]:
+                        - generic [ref=e586]: Tajik
+                      - option "Tanzanian" [ref=e587] [cursor=pointer]:
+                        - generic [ref=e588]: Tanzanian
+                      - option "Thai" [ref=e589] [cursor=pointer]:
+                        - generic [ref=e590]: Thai
+                      - option "Togolese" [ref=e591] [cursor=pointer]:
+                        - generic [ref=e592]: Togolese
+                      - option "Tongan" [ref=e593] [cursor=pointer]:
+                        - generic [ref=e594]: Tongan
+                      - option "Trinidadian or Tobagonian" [ref=e595] [cursor=pointer]:
+                        - generic [ref=e596]: Trinidadian or Tobagonian
+                      - option "Tunisian" [ref=e597] [cursor=pointer]:
+                        - generic [ref=e598]: Tunisian
+                      - option "Turkish" [ref=e599] [cursor=pointer]:
+                        - generic [ref=e600]: Turkish
+                      - option "Tuvaluan" [ref=e601] [cursor=pointer]:
+                        - generic [ref=e602]: Tuvaluan
+                      - option "Ugandan" [ref=e603] [cursor=pointer]:
+                        - generic [ref=e604]: Ugandan
+                      - option "Ukrainian" [ref=e605] [cursor=pointer]:
+                        - generic [ref=e606]: Ukrainian
+                      - option "Uruguayan" [ref=e607] [cursor=pointer]:
+                        - generic [ref=e608]: Uruguayan
+                      - option "Uzbekistani" [ref=e609] [cursor=pointer]:
+                        - generic [ref=e610]: Uzbekistani
+                      - option "Venezuelan" [ref=e611] [cursor=pointer]:
+                        - generic [ref=e612]: Venezuelan
+                      - option "Vietnamese" [ref=e613] [cursor=pointer]:
+                        - generic [ref=e614]: Vietnamese
+                      - option "Welsh" [ref=e615] [cursor=pointer]:
+                        - generic [ref=e616]: Welsh
+                      - option "Yemenite" [ref=e617] [cursor=pointer]:
+                        - generic [ref=e618]: Yemenite
+                      - option "Zambian" [ref=e619] [cursor=pointer]:
+                        - generic [ref=e620]: Zambian
+                      - option "Zimbabwean" [ref=e621] [cursor=pointer]:
+                        - generic [ref=e622]: Zimbabwean
+                - generic [ref=e624]:
+                  - generic [ref=e626]: Marital Status
+                  - generic [ref=e629] [cursor=pointer]:
+                    - generic [ref=e630]: Single
+                    - generic [ref=e632]: 
+              - generic [ref=e633]:
+                - generic [ref=e635]:
+                  - generic [ref=e637]: Date of Birth
+                  - generic [ref=e640]:
+                    - textbox "yyyy-dd-mm" [ref=e641]: 2023-21-10
+                    - generic [ref=e642] [cursor=pointer]: 
+                - generic [ref=e644]:
+                  - generic [ref=e646]: Gender
+                  - generic [ref=e647]:
+                    - generic [ref=e651] [cursor=pointer]:
+                      - radio "Male" [checked] [ref=e652]
+                      - text: Male
+                    - generic [ref=e657] [cursor=pointer]:
+                      - radio "Female" [ref=e658]
+                      - text: Female
+            - separator [ref=e660]
+            - generic [ref=e661]:
+              - paragraph [ref=e662]: "* Required"
+              - button "Save" [ref=e663] [cursor=pointer]
+        - generic [ref=e664]:
+          - separator [ref=e665]
+          - generic [ref=e666]:
+            - heading "Custom Fields" [level=6] [ref=e667]
+            - separator [ref=e668]
+            - generic [ref=e669]:
+              - generic [ref=e671]:
+                - generic [ref=e673]:
+                  - generic [ref=e675]: Blood Type
+                  - generic [ref=e678] [cursor=pointer]:
+                    - generic [ref=e679]: A+
+                    - generic [ref=e681]: 
+                - generic [ref=e683]:
+                  - generic [ref=e685]: Test_Field
+                  - textbox [ref=e687]: "445"
+              - separator [ref=e688]
+              - button "Save" [ref=e690] [cursor=pointer]
+        - generic [ref=e691]:
+          - separator [ref=e692]
+          - generic [ref=e694]:
+            - heading "Attachments" [level=6] [ref=e695]
+            - button " Add" [ref=e696] [cursor=pointer]:
+              - generic [ref=e697]: 
+              - text: Add
+          - generic [ref=e698]:
+            - separator [ref=e699]
+            - generic [ref=e701]: No Records Found
+          - table [ref=e703]:
+            - rowgroup [ref=e704]:
+              - row " File Name Description Size Type Date Added Added By Actions" [ref=e705]:
+                - columnheader "" [ref=e706]:
+                  - generic [ref=e708] [cursor=pointer]:
+                    - checkbox "" [ref=e709]
+                    - generic [ref=e711]: 
+                - columnheader "File Name" [ref=e712]
+                - columnheader "Description" [ref=e713]
+                - columnheader "Size" [ref=e714]
+                - columnheader "Type" [ref=e715]
+                - columnheader "Date Added" [ref=e716]
+                - columnheader "Added By" [ref=e717]
+                - columnheader "Actions" [ref=e718]
+            - rowgroup
+    - generic [ref=e719]:
+      - paragraph [ref=e720]: OrangeHRM OS 5.8
+      - paragraph [ref=e721]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e722] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

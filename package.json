@@ -1,0 +1,36 @@
+{
+  "name": "phuong-testing11-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:login": "playwright test login --project=chromium --headed",
+    "test:login:datadriven": "playwright test login --project=chromium --headed --grep \"data provider\"",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+    "test:home": "playwright test home --project=chromium --headed",
+    "test:myinfo": "playwright test myinfo --project=chromium --headed",
+    "test:admin": "playwright test admin --project=chromium --headed",
+    "test:getbyrole": "playwright test getbyrole --project=chromium --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuongDuy-PP/phuong-testing11-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhuongDuy-PP/phuong-testing11-playwright/issues"
+  },
+  "homepage": "https://github.com/PhuongDuy-PP/phuong-testing11-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.38.0",
+    "allure-playwright": "^3.6.0",
+    "dotenv": "^17.3.1"
+  }
+}

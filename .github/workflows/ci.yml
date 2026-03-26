@@ -1,0 +1,36 @@
+name: CI (playwright)
+
+# Kích hoạt workflow khi có push hoặc pull request vào nhánh main
+on:
+    push:
+        branches:
+          - main
+    pull_request:
+        branches:
+          - main
+
+jobs:
+    test:
+        # Sử dụng môi trường ubuntu-latest để chạy test
+        runs-on: ubuntu-latest
+        timeout-minutes: 30 
+        # Giới hạn thời gian chạy job là 30 phút
+        steps:
+            # B1: lấy code tử repository
+            - name: Pull code from repository (checkout)
+              uses: actions/checkout@v2
+            # B2: Cài đặt Node.js (phiên bản 20.0.0 hoặc mới hơn)
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                node-version: 20
+                cache: npm
+            #B3: cài đặt các dependencies (library) của dự án
+            - name: Install dependencies
+              run: npm install
+            #B4 tải browser (chromium) để chạy test
+            - name: Install Playwright browsers
+              run: npx playwright install --with-deps chromium
+            #B5 chạy test bằng Playwright
+            - name: Run Playwright tests
+              run: npx playwright test --project=chromium

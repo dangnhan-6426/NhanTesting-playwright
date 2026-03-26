@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "PIM" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: VIJAY J BABU
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+  - generic [ref=e135]:
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic:
+            - heading [level=6]
+          - img "profile picture" [ref=e144] [cursor=pointer]
+        - tablist [ref=e145]:
+          - tab "Personal Details" [ref=e146]:
+            - link "Personal Details" [ref=e147] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewPersonalDetails/empNumber/7
+          - tab "Contact Details" [ref=e148]:
+            - link "Contact Details" [ref=e149] [cursor=pointer]:
+              - /url: /web/index.php/pim/contactDetails/empNumber/7
+          - tab "Emergency Contacts" [ref=e150]:
+            - link "Emergency Contacts" [ref=e151] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewEmergencyContacts/empNumber/7
+          - tab "Dependents" [ref=e152]:
+            - link "Dependents" [ref=e153] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewDependents/empNumber/7
+          - tab "Immigration" [ref=e154]:
+            - link "Immigration" [ref=e155] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewImmigration/empNumber/7
+          - tab "Job" [ref=e156]:
+            - link "Job" [ref=e157] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewJobDetails/empNumber/7
+          - tab "Salary" [ref=e158]:
+            - link "Salary" [ref=e159] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewSalaryList/empNumber/7
+          - tab "Report-to" [ref=e160]:
+            - link "Report-to" [ref=e161] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewReportToDetails/empNumber/7
+          - tab "Qualifications" [ref=e162]:
+            - link "Qualifications" [ref=e163] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewQualifications/empNumber/7
+          - tab "Memberships" [ref=e164]:
+            - link "Memberships" [ref=e165] [cursor=pointer]:
+              - /url: /web/index.php/pim/viewMemberships/empNumber/7
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - heading "Personal Details" [level=6] [ref=e168]
+          - separator [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e177]:
+              - generic [ref=e179]: Employee Full Name*
+              - generic [ref=e180]:
+                - textbox "First Name" [ref=e183]: VIJAY J
+                - textbox "Middle Name" [ref=e186]: GANESH
+                - textbox "Last Name" [ref=e189]: BABU
+            - separator [ref=e190]
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e194]:
+                  - generic [ref=e196]: Employee Id
+                  - textbox [active] [ref=e198]: ramesh
+                - generic [ref=e200]:
+                  - generic [ref=e202]: Other Id
+                  - textbox [ref=e204]: "4957589"
+              - generic [ref=e205]:
+                - generic [ref=e207]:
+                  - generic [ref=e209]: Driver's License Number
+                  - textbox [ref=e211]: "56788"
+                - generic [ref=e213]:
+                  - generic [ref=e215]: License Expiry Date
+                  - generic [ref=e218]:
+                    - textbox "yyyy-dd-mm" [ref=e219]: 2025-05-10
+                    - generic [ref=e220] [cursor=pointer]: 
+            - separator [ref=e221]
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e225]:
+                  - generic [ref=e227]: Nationality
+                  - generic [ref=e230] [cursor=pointer]:
+                    - generic [ref=e231]: Albanian
+                    - generic [ref=e233]: 
+                - generic [ref=e235]:
+                  - generic [ref=e237]: Marital Status
+                  - generic [ref=e240] [cursor=pointer]:
+                    - generic [ref=e241]: Single
+                    - generic [ref=e243]: 
+              - generic [ref=e244]:
+                - generic [ref=e246]:
+                  - generic [ref=e248]: Date of Birth
+                  - generic [ref=e251]:
+                    - textbox "yyyy-dd-mm" [ref=e252]: 2023-21-10
+                    - generic [ref=e253] [cursor=pointer]: 
+                - generic [ref=e255]:
+                  - generic [ref=e257]: Gender
+                  - generic [ref=e258]:
+                    - generic [ref=e262] [cursor=pointer]:
+                      - radio "Male" [checked] [ref=e263]
+                      - text: Male
+                    - generic [ref=e268] [cursor=pointer]:
+                      - radio "Female" [ref=e269]
+                      - text: Female
+            - separator [ref=e271]
+            - generic [ref=e272]:
+              - paragraph [ref=e273]: "* Required"
+              - button "Save" [ref=e274] [cursor=pointer]
+        - generic [ref=e275]:
+          - separator [ref=e276]
+          - generic [ref=e278]:
+            - heading "Attachments" [level=6] [ref=e279]
+            - button " Add" [ref=e280] [cursor=pointer]:
+              - generic [ref=e281]: 
+              - text: Add
+          - table [ref=e283]
+    - generic [ref=e287]:
+      - paragraph [ref=e288]: OrangeHRM OS 5.8
+      - paragraph [ref=e289]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e290] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
