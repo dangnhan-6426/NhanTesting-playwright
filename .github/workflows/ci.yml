@@ -8,7 +8,7 @@ on:
     pull_request:
         branches:
           - main
-
+    workflow_dispatch:
 jobs:
     test:
         # Sử dụng môi trường ubuntu-latest để chạy test
@@ -68,3 +68,4 @@ jobs:
                   allure-report/
                   test-results/
             #B8: gửi báo cáo report quá slack
+
