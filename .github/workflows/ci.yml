@@ -8,7 +8,7 @@ on:
     pull_request:
         branches:
           - main
-
+    workflow_dispatch:
 jobs:
     test:
         # Sử dụng môi trường ubuntu-latest để chạy test
